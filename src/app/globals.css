@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.clip{
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align:center;
+}
+
+
