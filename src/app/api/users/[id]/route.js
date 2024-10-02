@@ -1,5 +1,5 @@
 import User from "@/models/UserModel";
-import connectDB from "@/utils/db";
+import connectDB from "@/utils/db.ts";
 import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
 

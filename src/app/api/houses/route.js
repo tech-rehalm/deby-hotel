@@ -1,5 +1,5 @@
 import House from "@/models/HouseModel.js"
-import connectDB from "@/utils/db.js"
+import connectDB from "@/utils/db.ts"
 import mongoose from "mongoose"
 import { NextResponse } from "next/server"
 
