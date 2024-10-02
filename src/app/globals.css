@@ -76,6 +76,9 @@
   scrollbar-width: 10px;
   -webkit-scrollbar-color: lime;
 }
+.light{
+  font-weight: 200;
+}
 
 @layer base {
   * {

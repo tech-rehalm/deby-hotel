@@ -26,6 +26,10 @@ const houseSchema = mongoose.Schema({
         type:String,
         required:true
     },
+    rating:{
+        type:Number,
+    },
+    reviews:[]
 })
 
 const House = mongoose.models?.House || mongoose.model("House", houseSchema)
