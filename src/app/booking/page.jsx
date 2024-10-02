@@ -1,3 +1,5 @@
+
+
 import BookingCarousel from '@/components/booking/BookingCarousel'
 import React from 'react'
 

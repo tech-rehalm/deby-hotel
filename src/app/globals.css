@@ -71,6 +71,11 @@
   color: transparent;
   text-align:center;
 }
+*{
+  scroll-behavior: smooth;
+  scrollbar-width: 10px;
+  -webkit-scrollbar-color: lime;
+}
 
 @layer base {
   * {

@@ -20,7 +20,7 @@ export default function Navbar() {
     if(!mounted) return <></>
     
   return (
-    <div className="w-full flex flex-col md:flex-row items-center justify-between px-[50px] backdrop-blur-lg py-2 absolute top-0 left-0 z-[100]">
+    <div className="w-full flex flex-col md:flex-row items-center justify-between px-[50px] backdrop-blur-lg py-2 fixed top-0 left-0 z-[100]">
       <h1 className="text-[lime] font-extrabold text-lg">Deby Hotel</h1>
       <div className="flex">
         <Link href="/" className=" px-3 py-2 font-bold mx-3 transition duration-500 hover:bg-[lime] hover:text-black text-[lime] rounded-xl">Home</Link>
