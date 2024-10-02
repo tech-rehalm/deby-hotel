@@ -1,4 +1,4 @@
-import User from "@/models/UserModel";
+import User from "@/models/UserModel.ts";
 import connectDB from "@/utils/db.ts";
 import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs"

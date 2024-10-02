@@ -1,4 +1,4 @@
-import House from "@/models/HouseModel";
+import House from "@/models/HouseModel.ts";
 import { NextResponse } from "next/server";
 
 export async function GET(req, {params}){

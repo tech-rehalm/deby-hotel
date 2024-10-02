@@ -1,4 +1,4 @@
-import House from "@/models/HouseModel.js"
+import House from "@/models/HouseModel.ts"
 import connectDB from "@/utils/db.ts"
 import mongoose from "mongoose"
 import { NextResponse } from "next/server"
